@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "carpet-livemaps",
+  "version": "${version}",
+
+  "name": "Carpet-Live Maps",
+  "description": "Updates Maps that are placed in item frames",
+  "authors": [
+    "Crinja"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Crinja/carpet-livemaps/tree/main",
+    "sources": "https://github.com/Crinja/carpet-livemaps/tree/main"
+  },
+
+  "icon": "assets/carpet_livemaps/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "carpet_livemaps.LiveMaps"
+    ]
+  },
+  "mixins": [
+    "carpet-livemaps.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17",
+    "carpet": "*"
+  },
+  "suggests": {
+  }
+}

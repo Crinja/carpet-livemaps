@@ -1,0 +1,4 @@
+{
+  "carpet.rule.mapTicks.desc": "The interval between Map updates, measured in ticks",
+  "carpet.rule.liveMapsFunction.desc": "How the mod behaves. Update maps either using Ticks or Redstone"
+}
